@@ -1,0 +1,80 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Freaks Gym</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-image: url(https://images.pexels.com/photos/903171/pexels-photo-903171.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+            background-repeat: no-repeat;
+            background-size: 1550px 750px;
+        }
+        .header {
+            font-size: 70px;
+            text-align: center;
+            color: #d9dbe7;
+            background-color:#01030aba;
+            background-repeat: no-repeat;
+            padding-bottom:80px;
+            padding-top: 60px;
+            font-family: 'Fredoka One', cursive;
+        }
+        .details {
+            text-align: center;
+            font-family: 'Lobster Two', cursive;
+            font-size: 20px;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+<div class="header">Registration Form</div><br>
+<form action="backend.php">
+<div  class="details"> 
+Name: <input type="text" name="Myname">
+</div> 
+<br>
+<div class="details">
+Age: <input type="number" name="Myage"> 
+</div>
+<br>
+<div class="details">
+Date of Birth: <input type="date" name="Mydob"> 
+</div>
+<br>
+<div class="details">
+Email: <input type="email" name="Myemail"> 
+</div>
+<br>
+<div class="details">
+Phone Number: <input type="text" name="Mynumber"> 
+</div>
+<br>
+<div class="details">
+Gender: Female <input type="radio" name="Mygender"> Male <input type="radio" name="Mygender"> Other <input type="radio" name="Mygender">  
+</div>
+<br>
+<div class="details">
+    <label for="class">Course classes:</label>
+    <select name="Myclass" id="class">
+    <option value="Class1">30-day fitness challenge</option>
+    <option value="Class2">Fit Forever</option>
+    <option value="Class3">90 days Race</option>
+    </select>
+</div>
+<br>
+<div class="details">
+<input type="submit" value="Submit Now" id="submit"> 
+<input type="reset" value="Reset Now">
+</div>
+</form>
+<script>
+if(id="submit") {
+    confirm("Are you sure you want to submit the form?");
+}
+</script>
+</body>
+</html>
